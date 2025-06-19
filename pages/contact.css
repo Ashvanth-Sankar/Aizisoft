@@ -1,0 +1,156 @@
+.contact-form {
+    background-color: rgb(147, 185, 235);
+    height: 41em;
+}
+.contact-form  #Co1{
+    height: 40em;
+    width: 100%; 
+}
+.contact-text {
+    position: absolute;
+  top: 15em;
+  left: 5em;
+  width: 25em;
+  height: 13em;
+  color: white;
+  align-items: center;
+  border-radius: 3px;
+  padding: 2em;
+  background: rgba(6, 66, 178, 0.4); 
+  box-sizing: border-box;
+  margin-left: 15em;
+}
+.contact-text h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 2em;
+}
+.contact-touch{
+    background-color:rgb(101, 66, 89);
+    height: 65em;
+}
+
+/*.contact-touch {
+  position: relative;
+  overflow: visible; 
+  /*background-color: #f9f9f9;
+   background-color:rgb(101, 66, 89);
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}/*/
+
+
+.touch-sheet h3{
+    padding-top: 1.5em;
+   display: flex;
+   justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(21, 150, 243);
+}
+.touch-sheet #toup{
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(58, 2, 58) ;
+    padding-left: 10em;
+    padding-top: 20px;
+}
+.touch-input{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20em;
+    margin-top: 2em;
+   
+}
+#Opp{
+    height: 3em;
+    width: 47em;
+    margin-top: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(71, 2, 34);
+    color: white;
+}
+
+.tinput h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 8em;
+    color:rgb(50, 188, 234) ;
+}
+.tinp{
+      display: grid;
+    grid-template-columns: repeat(1,1fr);
+     margin-left: 20em;
+    margin-top: 2em;
+}
+ #inbox{
+        height: 3em;
+    width: 47em;
+   margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(71, 2, 34);
+    color: white;
+    padding: 10px;
+}
+#cou{
+      height: 3em;
+    width: 47em;
+   margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(71, 2, 34);
+    color: white;
+    /*padding: 10px;/*/
+}
+#Addr{
+    height: 8em;
+    width: 55em;
+   margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(71, 2, 34);
+    color: white;
+    padding: 10px;
+}
+
+.thank-you-message {
+  /*background-color: #d4edda;
+  color: #155724;/*/
+  padding: 12px;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in;
+  
+}
+#Cosub{
+    height: 3em;
+    width: 8em;
+    background-color: rgb(7, 7, 167);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 40em;
+    margin-top: 1em;
+}
+#Cosub:hover{
+    cursor: pointer;
+    background-color: rgb(103, 13, 187);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

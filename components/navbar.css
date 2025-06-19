@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-nav{
+        background: radial-gradient(rgb(72, 5, 81), rgb(141, 2, 125)
+      );
+   height: 5em;
+   width: 100%;
+    position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.con-nav{
+    display: flex;
+    justify-content: space-around;
+}
+#azih1{
+    padding-top: 20px;
+    color: rgb(233, 241, 233);
+    
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-left: 35em;
+    
+}
+ li{
+    padding-top: 1em;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navlink{
+    color: white;
+}
+
+
+
+.nav-list a {
+  color: white;              
+  text-decoration: none;     
+}
+
+.nav-list a:hover {
+  color: rgb(62, 3, 39);         
+  text-decoration: none;
+}
+
+
+.nav-list li::after{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 4px;
+   background-color: rgb(231, 125, 245);
+   transition: width 0.3s ease;
+ }
+ .nav-list li:hover::after{
+   width: 100%;
+ }
+
+ .nav-list li{
+   cursor: pointer;
+   transition: all 0.3s ease;
+   position: relative;
+ }
